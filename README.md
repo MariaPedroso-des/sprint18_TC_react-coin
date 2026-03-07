@@ -50,7 +50,7 @@ El componente `Home` es el componente principal de nuestra aplicación. Este com
 
 El componente `Coin` muestra información detallada sobre una criptomoneda en particular. Para ello, hace una petición a la API de CoinCap y muestra la información de la criptomoneda en un formato más detallado.
 
-Al necesitar la `APIKEY`para poder acceder a los datos, en este caso la configuración del fetch será algo similar a esto:
+La configuración del fetch será algo similar a esto, ya que la documentación nos dice que tenemos que pasar la `APIKEY` como cabecera. Podría ser algo similar a esto:
 
 ```js
 const API_KEY = import.meta.env.VITE_API_URL;
