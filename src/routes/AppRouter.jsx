@@ -12,8 +12,8 @@ function AppRouter() {
       <Routes>
         <Route path='/' element={<Root />}>
           <Route index element={<Home />} />
-          <Route path="/coin/:id" element={<Coin />} />
-          <Route path="/favorites" element={<Favorites />} />
+          <Route path="coin/:id" element={<Coin />} />
+          <Route path="favorites" element={<Favorites />} />
         </Route>
       </Routes>
     </Router>

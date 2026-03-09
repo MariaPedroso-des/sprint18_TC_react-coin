@@ -3,7 +3,6 @@
 // Esto es común a todas las páginas por tanto.
 
 //Outlet es lo permite mantener estructuras compartidas
-
 import { Outlet } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 

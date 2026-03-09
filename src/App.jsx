@@ -1,7 +1,8 @@
-// import React from 'react'
+// en este no es imprecindible, lo será cuando tenga auth(para gestionar usuarios registrados) por ejemplo
+import AppRouter from "./routes/AppRouter";
 
+function App() {
+  return <AppRouter />
+}
 
-// const API_KEY = import.meta.env.VITE_API_KEY
-
-
-// export default App
+export default App
